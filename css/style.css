@@ -1340,9 +1340,10 @@ section.features .card {
   width: 120px;
   height: 56px;
   margin-top: 50px;
-  margin-right: 27px;
+  margin-right: 72px;
   background-color: #f8f8f8;
-  transform: translateX(17%);
+  transform: translateX(39%);
+
 }
 .searchbar:hover>.search_input {
   padding: 0 10px;
@@ -1371,11 +1372,11 @@ section.features .row .p {
 section.features .choose-us ul li i {
   margin-right: 9px;
   position: absolute;
-  left: 100px;
+  left: 68px;
 }
 .slider-rotate__container {
   position: relative;
-  width: 400px;
+  width: 300px;
   height: 2px;
   visibility: hidden;
 }
@@ -1394,7 +1395,7 @@ footer .lower-footer .social i {
   color: #fff;
 }
 section.head-slider .carousel-inner img{
-  height: 50vh;
+  height: 40vh;
 }
 .navbar-toggler-icon {
   display: inline-block;
