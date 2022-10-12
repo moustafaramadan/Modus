@@ -1337,7 +1337,7 @@ section.features .card {
     bottom: -28px;
 }
 section.features .card {
-  width: 120px;
+  width: 104px;
   height: 56px;
   margin-top: 50px;
   margin-right: 72px;
@@ -1354,7 +1354,7 @@ section.features .card {
 .nav-menu li a {
   color: #fff;
   font-weight: bold;
-  width: 250px;
+  width:175px;
   transition: all .5s ease;
 }
 section.serv .container .row.one .btn {
@@ -1417,5 +1417,21 @@ section.about h3 {
 }
 section.about p {
   font-size: 8px;
+}
+#MODUS-Nav .nav-logo a {
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 54px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  position: absolute;
+  right: 42px;
+  bottom: 17px;
 }
 }
