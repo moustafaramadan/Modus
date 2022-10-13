@@ -1373,14 +1373,18 @@ section.serv .container .row.one {
 }
 section.serv .container .row.one .btn {
   background-color: #26b9e1;
-  display: block;
-  font-size: 10px;
+    display: block;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 9px;
+    padding: 14px 86px;
+    color: white;
+    font-weight: 500;
+    width: 95%;
+}
+.navbar-toggler{
   position: absolute;
-  bottom: 2px;
-  right: 80px;
-  padding: 14px 86px;
-  color: white;
-  font-weight: 500;
 }
 section.features .row .p {
   position: absolute;
@@ -1426,8 +1430,8 @@ section.head-slider .carousel-inner img{
   background-position: center;
   background-size: 100%;
   position: absolute;
-  left: 10px;
-  top: 27px;
+  left: -3px;
+  top: -10px;
 }
 section.about h3 {
   color: #26b9e1;
