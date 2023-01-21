@@ -2,7 +2,12 @@
   padding: 0;
   margin: 0;
 }
+.nav-menu
+{
 
+  position: relative;
+  right: 344px;
+}
 .searchbar {
   margin-bottom: auto;
   margin-top: auto;
@@ -28,7 +33,7 @@
 
 .searchbar:hover>.search_input {
   padding: 0 10px;
-  width: 350px;
+  width: 200px;
   caret-color: red;
   transition: width 0.4s linear;
 }
@@ -159,10 +164,10 @@ label {
   text-indent: 3px;
 }
 
-.nav-menu {
+/* .nav-menu {
   position: absolute;
   right: 32%;
-}
+} */
 
 .nav-menu li {
   margin-left: 40px;
@@ -1116,6 +1121,21 @@ section.features .card{
 }
 }
 @media (max-width:992px) {
+  .searchbar {
+    position: initial;
+    bottom: -2px;
+  }
+
+  .searchbar:hover>.search_input {
+    padding: 0 10px;
+    width: 250px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
+  .nav-menu {
+    position: initial;
+  }
+
   label {
     font-size: 9px;
     padding-top: 2px;
@@ -1199,6 +1219,8 @@ footer .blog .d-flex .flex-grow-1 {
   font-size: 6px;
   color: #fff;
 }
+
+
 .nav-menu li a {
   color: #fff;
   font-weight: bold;
@@ -1310,10 +1332,25 @@ section.features .card {
   background-color: #f8f8f8;
   transform: translateX(17%);
 }
-
+.searchbar:hover>.search_input {
+  padding: 0 10px;
+  width: 150px;
+  caret-color: red;
+  transition: width 0.4s linear;
+}
 }
 
 @media (max-width:576px) {
+  .searchbar {
+    position: absolute;
+    right: 42px;
+    top: 0;
+}
+  .searchbar:focus>.search_input {
+    padding: 0 10px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
   label {
     font-size: 9px;
     padding-top: 2px;
