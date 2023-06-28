@@ -1333,24 +1333,30 @@ section.features .card {
   transform: translateX(17%);
 }
 .searchbar:hover>.search_input {
-  padding: 0 10px;
-  width: 150px;
+  width: 100%;
   caret-color: red;
   transition: width 0.4s linear;
 }
 }
 
 @media (max-width:576px) {
+  .form-inline{
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+  }
+  .nav-logo{
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
   .searchbar {
-    position: absolute;
-    right: 42px;
-    top: 0;
+display: none;
 }
-  .searchbar:focus>.search_input {
+  /* .searchbar:focus>.search_input {
     padding: 0 10px;
     caret-color: red;
     transition: width 0.4s linear;
-  }
+  } */
   label {
     font-size: 9px;
     padding-top: 2px;
@@ -1382,12 +1388,12 @@ section.features .card {
   transform: translateX(39%);
 
 }
-.searchbar:hover>.search_input {
+/* .searchbar:hover>.search_input {
   padding: 0 10px;
   width: 88px;
   caret-color: red;
   transition: width 0.4s linear;
-}
+} */
 .nav-menu li a {
   color: #fff;
   font-weight: bold;
@@ -1486,17 +1492,6 @@ section.about p {
 #MODUS-Nav .nav-logo a span {
   font-size: 16px;
   font-weight: 400;
-}
-.searchbar {
-  margin-bottom: auto;
-  margin-top: auto;
-  height: 54px;
-  background-color: white;
-  border-radius: 30px;
-  padding: 10px;
-  position: absolute;
-  right: 42px;
-  bottom: 17px;
 }
 
 }
